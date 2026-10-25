@@ -1,0 +1,25 @@
+{
+    "name": "meta-tabletop",
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite dev --port 3005",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "vite build && wrangler pages deploy build"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-static": "^2.0.2",
+        "@sveltejs/kit": "^1.27.6",
+        "@sveltejs/vite-plugin-svelte": "^2.4.5",
+        "dotenv": "^16.3.1",
+        "socket.io-client": "^4.7.2",
+        "svelte": "^4.2.8",
+        "vite": "^4.4.9",
+        "vite-plugin-windicss": "^1.9.2",
+        "wrangler": "^3.0.0"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}
